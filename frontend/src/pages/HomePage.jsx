@@ -4,13 +4,20 @@ import { useProductStore } from "../stores/useProductStore";
 import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
-	{ href: "/jeans", name: "Jeans", imageUrl: "/jeans.jpg" },
-	{ href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
-	{ href: "/shoes", name: "Shoes", imageUrl: "/shoes.jpg" },
-	{ href: "/glasses", name: "Glasses", imageUrl: "/glasses.png" },
-	{ href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
-	{ href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
-	{ href: "/bags", name: "Bags", imageUrl: "/bags.jpg" },
+	// { href: "/jeans", name: "Jeans", imageUrl: "/jeans.jpg" },
+	// { href: "/t-shirts", name: "T-shirts", imageUrl: "/tshirts.jpg" },
+	// { href: "/shoes", name: "Shoes", imageUrl: "/shoes.jpg" },
+	// { href: "/glasses", name: "Glasses", imageUrl: "/glasses.png" },
+	// { href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
+	// { href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
+	// { href: "/bags", name: "Bags", imageUrl: "/bag" },gs.jp
+	 { href: "/indie-games", name: "Indie Games", imageUrl: "/indie-games.avif" },
+     { href: "/rhythm-games", name: "Rhythm Games", imageUrl: "/rhythm-games.jpg" },
+     { href: "/action-games", name: "Action Games", imageUrl: "/action-games.jpg" },
+     { href: "/adventure-games", name: "Adventure Games", imageUrl: "/adventure-games.jpg" },
+     { href: "/puzzle-games", name: "Puzzle Games", imageUrl: "/puzzle-games.avif" },
+     { href: "/rpg-games", name: "RPG Games", imageUrl: "/rpg-games.webp" },
+     { href: "/strategy-games", name: "Strategy Games", imageUrl: "/strategy-games.jpg" },
 ];
 
 const HomePage = () => {
@@ -27,7 +34,7 @@ const HomePage = () => {
 					Explore Our Categories
 				</h1>
 				<p className='text-center text-xl text-gray-300 mb-12'>
-					Discover the latest trends in eco-friendly fashion
+					Discover the latest trends in gaming industry.
 				</p>
 
 				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>

@@ -11,6 +11,13 @@ const categories = [
 	{ href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
 	{ href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
 	{ href: "/bags", name: "Bags", imageUrl: "/bags.jpg" },
+	// { href: "/indie-games", name: "Indie Games", imageUrl: "/indie-games.avif" },
+    // { href: "/rhythm-games", name: "Rhythm Games", imageUrl: "/rhythm-games.jpg" },
+    // { href: "/action-games", name: "Action Games", imageUrl: "/action-games.jpg" },
+    // { href: "/adventure-games", name: "Adventure Games", imageUrl: "/adventure-games.jpg" },
+    // { href: "/puzzle-games", name: "Puzzle Games", imageUrl: "/puzzle-games.avif" },
+    // { href: "/rpg-games", name: "RPG Games", imageUrl: "/rpg-games.webp" },
+    // { href: "/strategy-games", name: "Strategy Games", imageUrl: "/strategy-games.jpg" },
 ];
 
 const HomePage = () => {

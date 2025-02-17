@@ -34,7 +34,7 @@ const HomePage = () => {
 					Explore Our Categories
 				</h1>
 				<p className='text-center text-xl text-gray-300 mb-12'>
-					Discover the latest trends in gaming industry.
+					Discover the latest trends in the industry.
 				</p>
 
 				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
